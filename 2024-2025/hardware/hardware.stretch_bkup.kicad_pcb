@@ -82,7 +82,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(plot_on_all_layers_selection 0x00010fc_80000001)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -111,9 +111,9 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -6106,8 +6106,8 @@
 		(uuid "288024b2-92be-44e1-b521-9c6eeb589351")
 	)
 	(gr_rect
-		(start 90.4875 42.8625)
-		(end 109.5375 61.9125)
+		(start 90.4875 19.05)
+		(end 109.5375 38.1)
 		(stroke
 			(width 1)
 			(type default)
